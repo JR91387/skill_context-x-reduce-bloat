@@ -1,6 +1,8 @@
 # Context-X — Gas-X for Your Context Window
 
-![Context-X skill overview](skill_contextx_context_reduce_bloat_jr91387.png)
+![Context-X skill overview](skill_context-x_reduce_token_bloat.png)
+
+> **Clinically adjacent.** Do not ingest.
 
 When your `CLAUDE.md` and memory files are eating your context budget, `/context-x` fixes it.
 
@@ -11,7 +13,7 @@ When your `CLAUDE.md` and memory files are eating your context budget, `/context
 - **Prunes** resolved entries from `MEMORY.md`
 - **Trims** verbose skill `description:` fields that load every session
 
-Expected result: ~60% reduction in `CLAUDE.md` session-start token cost. 
+Expected result: ~60% reduction in `CLAUDE.md` session-start token cost.
 
 ## Install
 
@@ -55,3 +57,7 @@ Reverts the last run from `backup_originals/`. All modified files are backed up 
 
 - [Claude Code](https://claude.ai/code) (any recent version)
 - Skills must be enabled in your Claude Code settings
+
+---
+
+*Satisfaction guaranteed, or we blame your prompt.*
