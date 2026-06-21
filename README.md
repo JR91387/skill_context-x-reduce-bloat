@@ -1,8 +1,8 @@
 # Context-X — Gas-X for Your Context Window
 
-![Context-X skill overview](ContextX_GasX_Content_Bloat_Skill.png)
+![Context-X skill overview](skill_contextx_context_reduce_bloat_jr91387.png)
 
-A [Claude Code](https://claude.ai/code) skill that reduces session-start token bloat. When your `CLAUDE.md` and memory files are eating your context budget, `/context-x` fixes it.
+When your `CLAUDE.md` and memory files are eating your context budget, `/context-x` fixes it.
 
 ## What it does
 
@@ -11,7 +11,7 @@ A [Claude Code](https://claude.ai/code) skill that reduces session-start token b
 - **Prunes** resolved entries from `MEMORY.md`
 - **Trims** verbose skill `description:` fields that load every session
 
-Typical result: 60–80% reduction in `CLAUDE.md` session-start token cost.
+Expected result: ~60% reduction in `CLAUDE.md` session-start token cost. 
 
 ## Install
 
